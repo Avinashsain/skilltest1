@@ -130,7 +130,7 @@ curl http://localhost:3003/health
 
 ## Docker Setup
 
-### Dockerfiles
+### Dockerfile
 
 Each service:
 
@@ -141,7 +141,7 @@ Each service:
 
 ---
 
-### Docker Compose
+### docker-compse.yaml
 
 * Multi-container orchestration
 * Shared bridge network
