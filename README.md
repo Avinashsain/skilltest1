@@ -86,12 +86,12 @@ docker ps
 
 ## Service Endpoints
 
-| Service         | URL                   |
-| --------------- | --------------------- |
-| User Service    | http://localhost:3000 |
-| Product Service | http://localhost:3001 |
-| Order Service   | http://localhost:3002 |
-| Gateway Service | http://localhost:3003 |
+| Service         | URL                            |
+| --------------- | -------------------------------|
+| User Service    | http://localhost:3000/users    |
+| Product Service | http://localhost:3001/products |
+| Order Service   | http://localhost:3002/orders   |
+| Gateway Service | http://localhost:3003/health   |
 
 ---
 
@@ -102,10 +102,10 @@ docker ps
 Open:
 
 ```
-http://localhost:3000
-http://localhost:3001
-http://localhost:3002
-http://localhost:3003
+http://localhost:3000/users
+http://localhost:3001/products
+http://localhost:3002/orders
+http://localhost:3003/health
 ```
 
 ![users](./screenshots/browser-users.png)
@@ -115,10 +115,10 @@ http://localhost:3003
 ### cURL
 
 ```bash
-curl http://localhost:3000
-curl http://localhost:3001
-curl http://localhost:3002
-curl http://localhost:3003
+curl http://localhost:3000/users
+curl http://localhost:3001/products
+curl http://localhost:3002/orders
+curl http://localhost:3003/health
 ```
 
 ---
